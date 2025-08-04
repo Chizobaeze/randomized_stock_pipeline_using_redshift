@@ -18,14 +18,13 @@ The pipeline is designed to mirror a real-world scenario, where stock data is pr
 
 
 ##  DAG Overview
-
-![DAG Screenshot](./2.PNG)
-
 The DAG is named `chiz_daily_to_redshift` and includes three main tasks:
 
 - `generate_transaction_data` – PythonOperator  
 - `upload_to_s3` – PythonOperator  
-- `load_to_redshift` – S3ToRedshiftOperator  
+- `load_to_redshift` – S3ToRedshiftOperator
+  
+![DAG Screenshot](./2.PNG)
 
 All tasks complete successfully as shown above, indicating a healthy DAG run.
 
