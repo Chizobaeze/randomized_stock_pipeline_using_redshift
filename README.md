@@ -17,9 +17,6 @@ The pipeline is designed to mirror a real-world scenario, where stock data is pr
 | **Terraform**      | Infrastructure as Code for S3, Redshift, etc.  |
 
 
-
-
-
 ## 🖼️ DAG Overview
 
 ![DAG Screenshot](./2.PNG)
@@ -31,22 +28,6 @@ The DAG is named `chiz_daily_to_redshift` and includes three main tasks:
 - `load_to_redshift` – S3ToRedshiftOperator  
 
 All tasks complete successfully as shown above, indicating a healthy DAG run.
-
----
-
-## 🧰 Tools & Technologies
-
-| Tool              | Role                                            |
-|-------------------|-------------------------------------------------|
-| **Apache Airflow** | Orchestration of DAGs and scheduling            |
-| **Python**         | Simulation scripts and data processing          |
-| **Faker + pandas** | Synthetic stock transaction generation          |
-| **AWS S3**         | Data lake for raw Parquet storage               |
-| **Amazon Redshift**| Data warehouse for querying and dashboards      |
-| **Docker**         | Containerized Airflow environment               |
-| **Terraform**      | Infrastructure as Code for S3, Redshift, etc.  |
-
----
 
 ## 🚀 How to Run Locally
 
