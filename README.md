@@ -1,5 +1,5 @@
 
-# randomized_stock_pipeline
+# Randomized_stock_pipeline_using_redshift
 This project simulates transactional data for a fictional stock market to monitor the daily value of various stocks. It then builds a complete data pipeline that moves the generated data from local simulation to analytics-ready storage in Amazon Redshift.
 The pipeline is designed to mirror a real-world scenario, where stock data is produced in large volumes, stored in the cloud, processed, and analyzed—all using automated, scalable tools.
 
@@ -17,7 +17,7 @@ The pipeline is designed to mirror a real-world scenario, where stock data is pr
 | **Terraform**      | Infrastructure as Code for S3, Redshift, etc.  |
 
 
-## 🖼️ DAG Overview
+##  DAG Overview
 
 ![DAG Screenshot](./2.PNG)
 
