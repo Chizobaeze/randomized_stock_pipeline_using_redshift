@@ -1,0 +1,6 @@
+boto3==1.37.37
+apache-airflow-providers-amazon==8.10.0
+redshift-connector>=2.0.918
+faker
+awswrangler
+
