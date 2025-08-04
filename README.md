@@ -36,3 +36,10 @@ All tasks complete successfully as shown above, indicating a healthy DAG run.
    cd randomized_stock_pipeline
 
 
+
+  #### Output
+-  Daily Parquet files uploaded to your specified S3 bucket
+- Transaction data ingested into Amazon Redshift table
+- Data is ready for downstream analytics and dashboarding
+
+   
