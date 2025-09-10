@@ -3,6 +3,8 @@
 This project simulates transactional data for a fictional stock market to monitor the daily value of various stocks. It then builds a complete data pipeline that moves the generated data from local simulation to analytics-ready storage in Amazon Redshift.
 The pipeline is designed to mirror a real-world scenario, where stock data is produced in large volumes, stored in the cloud, processed, and analyzed—all using automated, scalable tools.
 
+![DAG Screenshot](https://github.com/Chizobaeze/randomized_stock_pipeline_using_redshift/blob/18808b1ec4ad1d4645489e120e6c44653994ce88/redshift.drawio.png)
+
 
 ## 🧰 Tools & Technologies
 
